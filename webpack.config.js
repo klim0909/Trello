@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
     entry: {
         main: './src/js/app',
-        additionalPatern: './src/js/popover.js',
+        additionalPatern: './src/js/btn.js',
         additionalStyle: './src/css/style.css',
     },
   devServer: {
